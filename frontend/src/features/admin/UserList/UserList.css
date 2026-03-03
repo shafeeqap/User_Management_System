@@ -1,0 +1,71 @@
+.homeDiv{
+    margin: 5rem 1rem;
+  }
+  
+  .Btn {
+    padding: 5px 10px;
+    margin: 0px 2px;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  .readBtn {
+    background-color: blue;
+  }
+  
+  .editBtn {
+    background-color: green;
+  }
+  
+  .deleteBtn {
+    background-color: red;
+  }
+  
+  .search {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 15px;
+  }
+  
+  .search input {
+    padding: 0 5px;
+    height: 30px;
+    width: 250px;
+    border: 1px solid;
+    border-radius: 5px;
+  }
+
+  .search h2 {
+    font-weight: bolder;
+    font: 2em sans-serif;
+  }
+
+  .addUser {
+    display: flex;
+    justify-content: end;
+    margin-bottom: 5px;
+  }
+
+  .addUserBtn {
+    background-color: green;
+    color: white;
+    padding: 5px 15px;
+    border-radius: 5px;
+  }
+
+  .initials {
+    width: 50px;
+    height: 50px;
+    border-radius: 100%;
+    background-color: #007bff;
+    color: #fff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 20px;
+    font-weight: bold;
+    text-transform: uppercase;
+  }
