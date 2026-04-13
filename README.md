@@ -22,30 +22,30 @@ to catch and pass errors to the Express error-handling middleware.
 Frontend
 --------
 1. vite@latest 
-2. @reduxjs/toolkit
+2. reduxjs/toolkit
 3. react-redux
 4. react-router-dom 
 5. react-icons 
 6. Formik 
 7. Yup 
 8. react-toastify
-9. @react-oauth/google
+9. react-oauth/google
 
+### For start both frontend and Backend
 ```bash
-#for start both frontend and Backend
 npm install -D concurrently
 npm start dev
 ```
 
 If you face any problems during the programme run. 
   You should remove 'node_modules' and 'package-lock.json', then reinstall.
-
 ```bash
 Remove-Item -Recurse -Force node_modules
 Remove-Item -Force package-lock.json
-# you can reinstall your dependencies with: 
+```
+### you can reinstall your dependencies with:
+```bash
 npm install
 ```
-
 
 
