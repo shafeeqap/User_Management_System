@@ -14,7 +14,7 @@
   "license": "ISC",
   "dependencies": {
     "autoprefixer": "^10.4.20",
-    "axios": "^1.7.5",
+    "axios": "^1.17.0",
     "bcryptjs": "^2.4.3",
     "caniuse-lite": "^1.0.30001663",
     "cookie-parser": "^1.4.6",
